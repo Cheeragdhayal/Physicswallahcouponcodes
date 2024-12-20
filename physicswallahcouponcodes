@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Wallah Coupon Codes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .coupon {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .coupon img {
+            max-width: 20%;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .coupon-content {
+            padding: 5px;
+            flex: 1;
+        }
+
+        .coupon-content h2 {
+            margin-top: 0;
+            color: #6a1b9a;
+        }
+
+        .coupon-content p {
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #6a1b9a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #4a148c;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #6a1b9a;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .coupon {
+                flex-direction: column;
+            }
+
+            .coupon img {
+                border-radius: 5px 5px 0 0;
+            }
+
+            .coupon-content {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Physics Wallah Coupon Codes</h1>
+        <p>Save big on your learning journey!</p>
+    </header>
+
+    <div class="container">
+        <!-- Coupon Card 1 -->
+        <div class="coupon">
+            <img src="photo1.jpeg" alt="Physics Wallah Discount">
+            <div class="coupon-content">
+                <h2>Flat 20% Off on All Courses</h2>
+                <p>Use code <strong>CHEDHA0001</strong> at checkout to avail a 20% discount on all Physics Wallah courses. Limited time offer!</p>
+                <a href="#" class="btn">CHEDHA0001</a>
+            </div>
+        </div>
+
+        <!-- Coupon Card 2 -->
+        <div class="coupon">
+            <img src="photo2.jpeg" alt="Physics Wallah Offer">
+            <div class="coupon-content">
+                <h2>Discount on Skills Batches</h2>
+                <p>Use code <strong>CHEDHA0001</strong> to get discount on skills course when you purchase. Learn more and save more!</p>
+                <a href="#" class="btn">CHEDHA0001</a>
+            </div>
+        </div>
+
+        <!-- Coupon Card 3 -->
+        <div class="coupon">
+            <img src="photo3.jpeg" alt="Physics Wallah Special">
+            <div class="coupon-content">
+                <h2>30% Off for New Users</h2>
+                <p>New to Physics Wallah? Use code <strong>CHEDHA0001</strong> to get 20% off on your first purchase. Start learning today!</p>
+                <a href="#" class="btn">CHEDHA0001</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Physics Wallah Coupon Promotion | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Add interactivity (example)
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Coupon code copied to clipboard!');
+            });
+        });
+    </script>
+</body>
+</html>
